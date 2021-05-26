@@ -28,48 +28,23 @@ htmlItem x = "<li>" ++ x ++ "<li>"
 
 -- 6 - Crie uma função startsWithA :: String -> Bool que receba uma string e verifique se ela inicia com o caracter 'A'
 
--- startsWithA :: String -> Bool
--- startsWithA x = if (head x) == 'A' then True else False 
--- ARRUMAR
+startsWithA :: [Char] -> Bool
+startsWithA x = if (head x) == 'A' then True else False 
+
 
 -- 7 - Defina uma função isVerb :: String -> Bool que receba uma string e verifique se ela termina com o caracter 'r'. Antes desse exercício, teste no interpretador a função pré-definida last, que retorna o último elemento de uma lista.
 
--- isVerb :: String -> Bool
--- isVerb x = if (last x) == "r" then True else False
+isVerb :: String -> Bool
+isVerb x = if (last x) == 'r' then True else False
+
+-- 8 - Crie uma função isVowel :: Char -> Bool que receba um caracter e verifique se ele é uma vogal minúscula.
+
+isVowel :: Char -> Bool
+isVowel x = if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u') then True else False
+
+hasEqHeads :: [Int] -> [Int] -> Bool
+hasEqHeads x y = if (head x == head y) then True else False
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+isVowel2 :: Char -> Bool
+isVowel2 x = if (elem x "aeiouAEIOU") then True else False
