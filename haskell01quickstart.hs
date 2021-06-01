@@ -36,3 +36,4 @@ squareFirst lis = (head lis)^2
 -- Verifica se uma palavra tem mais de 10 caracteres
 isLongWord :: String -> Bool -- isso é o mesmo que: isLongWord :: [Char] -> Bool
 isLongWord s = length s > 10
+
