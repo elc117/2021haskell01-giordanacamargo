@@ -55,8 +55,26 @@ onlyBetween60and80 x = filter between60and80 x
 
 -- 7 - Crie uma função countSpaces que receba uma string e retorne o número de espaços nela contidos. Dica 1: você vai precisar de uma função que identifica espaços. Dica 2: aplique funções consecutivamente, isto é, use o resultado de uma função como argumento para outra.
 
---isSpace :: Char -> Bool
---isSpace x = if (elem x " ") then True else False
+-- funcao que retorna se char eh espaco
+isSpace :: Char -> Bool
+isSpace x = if (elem x " ") then True else False
 
---countSpaces :: String -> Bool
---countSpaces x = map isSpace x
+countSpaces :: String -> Int
+countSpaces x = length (filter isSpace x)
+
+-- 8 - Escreva uma função calcAreas que, dada uma lista de valores de raios de círculos, retorne uma lista com a área correspondente a cada raio.
+
+-- calcula as areas 
+circleArea :: Float -> Float
+circleArea x = pi * (x^2)
+
+calcAreas :: [Float] -> [Float]
+calcAreas x = map circleArea x
+
+-- 9 - Neste exercício, você vai criar uma função equivalente a elem, mas usando uma função de alta ordem. Crie a função charFound :: Char -> String -> Bool que verifique se o caracter (primeiro argumento) está contido na string (segundo argumento). Exemplos de uso da função:
+
+isChar :: Char -> Char -> Bool
+isChar char1 char2 = char1 == char2
+
+charFound :: Char -> String -> Bool
+charFound char string = length (filter (isChar char) string) > 0
