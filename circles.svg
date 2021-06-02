@@ -25,6 +25,7 @@
 <circle cx='110' cy='110' r='15' fill='rgb(0, 0, 0, 0.15)' />
 <circle cx='72' cy='82' r='10' fill='rgb(0, 0, 0, 0.12)' />
 <circle cx='75' cy='120' r='13' fill='rgb(0, 0, 0, 0.1)' />
-<circle cx='90' cy='1100' r='800' fill='rgb(0, 0, 0, 0.9)' />
+<circle cx='410' cy='1080' r='800' fill='rgb(10, 30, 4, 1)' />
+<circle cx='90' cy='1100' r='800' fill='rgb(14, 37, 8, 1)' />
 <circle cx='250' cy='1200' r='850' fill='rgb(23, 50, 16, 1)' />
 </svg>

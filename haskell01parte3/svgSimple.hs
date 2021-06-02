@@ -16,6 +16,7 @@ svgCircle x y r style =
 svgAll :: String
 svgAll = 
   svgBegin 500 500 ++ 
+  
   (svgCircle 60 60 1000 "rgb(20, 11, 55, 1)") ++ -- Fundo
   
   (svgCircle 82 200 1 "rgb(255, 255, 255, 1)") ++ -- Estrelinha
@@ -47,9 +48,12 @@ svgAll =
   (svgCircle 72 82 10 "rgb(0, 0, 0, 0.12)") ++ -- buraco da lua 2
   (svgCircle 75 120 13 "rgb(0, 0, 0, 0.1)") ++ -- buraco da lua 3
 
-  (svgCircle 90 1100 800 "rgb(23, 25, 10, 0.9)") ++ -- graminha
+  (svgCircle 410 1080 800 "rgb(10, 30, 4, 1)") ++ -- graminha de trás dir
+  (svgCircle 90 1100 800 "rgb(14, 37, 8, 1)") ++ -- graminha de trás
   (svgCircle 250 1200 850 "rgb(23, 50, 16, 1)") ++ -- graminha
- 
+
+  <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  
  
  
  
