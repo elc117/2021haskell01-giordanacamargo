@@ -1,4 +1,30 @@
 <svg width='500.00' height='500.00' xmlns='http://www.w3.org/2000/svg'>
-<circle cx='60' cy='60' r='50' fill='rgb(10, 145, 32, 0.4)' />
-<circle cx='90' cy='90' r='50' fill='rgb(105, 14, 30, 0.4)' />
+<circle cx='60' cy='60' r='1000' fill='rgb(20, 11, 55, 1)' />
+<circle cx='82' cy='200' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='59' cy='300' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='188' cy='301' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='315' cy='380' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='201' cy='289' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='400' cy='400' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='500' cy='500' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='19' cy='190' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='480' cy='222' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='315' cy='150' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='342' cy='270' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='206' cy='18' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='260' cy='132' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='199' cy='210' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='290' cy='100' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='280' cy='15' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='215' cy='301' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='250' cy='240' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='450' cy='100' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='470' cy='270' r='1' fill='rgb(255, 255, 255, 1)' />
+<circle cx='95' cy='95' r='75' fill='rgb(255, 255, 255, 0.1)' />
+<circle cx='95' cy='95' r='50' fill='rgb(255, 255, 255, 1)' />
+<circle cx='110' cy='110' r='15' fill='rgb(0, 0, 0, 0.15)' />
+<circle cx='72' cy='82' r='10' fill='rgb(0, 0, 0, 0.12)' />
+<circle cx='75' cy='120' r='13' fill='rgb(0, 0, 0, 0.1)' />
+<circle cx='90' cy='1100' r='800' fill='rgb(0, 0, 0, 0.9)' />
+<circle cx='250' cy='1200' r='850' fill='rgb(23, 50, 16, 1)' />
 </svg>
